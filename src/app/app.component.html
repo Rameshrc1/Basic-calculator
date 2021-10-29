@@ -1,0 +1,16 @@
+<label>value 1 : </label>
+<input type="text"[formControl]="value1Field">
+<br><br>
+
+<label>value 1 : </label>
+<input type="text"[formControl]="value2Field">
+<br><br>
+
+<label>Answer: </label>
+<input type="text"[formControl]="ansField">
+<br><br>
+
+<button (click)="operation('sum')">Addition</button>
+<button (click)="operation('sub')">Subtraction</button>
+<button (click)="operation('mul')">Multiplication</button>
+<button (click)="operation('div')">Division</button>
